@@ -13,7 +13,7 @@ lass Automobile():
         return "Car is: " + str(self._doors) + " doors, " + self._colour
 
 class SportsCar(Automobile):
-    def __init__(self, ndoors=0, clr="", eng=0): #Should have same parameters, should be self first
+    def __init__(self, ndoors=0, clr="", eng=0):
         super().__init__(ndoors, clr)
         self._engine = eng
 
